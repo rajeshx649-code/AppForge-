@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AppForge — Publish Apps Free</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="logo">⚒️ AppForge</div>
+  <nav>
+    <a href="#apps">Apps</a>
+    <a href="#publish">Publish</a>
+    <a href="#about">About</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero">
+  <div>
+    <p class="badge">FREE APP PUBLISHING PLATFORM</p>
+    <h1>Build. Publish.<br><span>Share your app.</span></h1>
+    <p class="hero-text">A simple GitHub-style hub for discovering and publishing apps.</p>
+    <a class="button" href="#publish">🚀 Publish an App</a>
+  </div>
+  <div class="hero-card">
+    <div class="app-icon">📱</div>
+    <h3>Your App</h3>
+    <p>Ready to be published</p>
+    <div class="mini-row"><span>Version</span><b>1.0</b></div>
+    <div class="mini-row"><span>Publishing</span><b>Free</b></div>
+  </div>
+</section>
+
+<section id="apps" class="section">
+  <h2>Discover Apps</h2>
+  <p class="muted">Apps published on AppForge will appear here.</p>
+  <div id="appGrid" class="grid"></div>
+</section>
+
+<section id="publish" class="section publish">
+  <h2>Publish your app</h2>
+  <p class="muted">Create an app listing. This demo stores listings in your browser.</p>
+  <form id="appForm">
+    <input id="name" placeholder="App name" required>
+    <input id="version" placeholder="Version (e.g. 1.0)" required>
+    <input id="developer" placeholder="Developer name" required>
+    <textarea id="description" placeholder="Describe your app..." required></textarea>
+    <input id="download" placeholder="Download URL (optional)">
+    <button class="button" type="submit">Publish App</button>
+  </form>
+</section>
+
+<section id="about" class="section about">
+  <h2>About AppForge</h2>
+  <p>AppForge is designed as a free, simple place where developers can publish and share their apps.</p>
+</section>
+</main>
+
+<footer>© 2026 AppForge · Free app publishing platform</footer>
+<script src="script.js"></script>
+</body>
+</html>
